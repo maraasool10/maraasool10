@@ -2,15 +2,34 @@ body{
     margin: auto;
     background-color: rgba(228, 229, 219, 0.556);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 
 
-button {
+.btn{
     background-color: rgb(94, 94, 101);
-padding: 30px 200px;
-font-size: 24px;
-border-radius: 12px;
-border: black;
-display: grid;
+    padding: 30px 200px;
+    font-size: 24px;
+    border-radius: 12px;
+    border: black;
+    display: grid;
+    height: 60px;
+    width: 60px;
+    margin-left: 260px;
+    margin-right: 260px;
 }
+
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+ 
+  
