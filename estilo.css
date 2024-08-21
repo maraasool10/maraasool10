@@ -6,7 +6,6 @@ body{
     font-family: Playfair Display;
     font-size: 25px;
     
-    
 }
 
 
@@ -26,8 +25,15 @@ button{
     justify-content: center;
     border: 3px solid #000;
     font-family: Playfair Display;
-      
+    transition: background-color 0.8s transform 0.8s;
     
+    
+}
+
+button:hover {
+    background-color: rgb(185, 11, 11);
+    color: #000;
+    transform: scale(1.1)
 }
 
 
@@ -43,4 +49,9 @@ img {
 
 
   
+  
+
+      
+
+
   
