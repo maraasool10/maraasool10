@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login_sol.com</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="login-container">
@@ -11,12 +12,41 @@
         <form id="loginForm"></form>
         <div>
             <label for="email">EMAIL:</label>
-            <input type="email" 
+            <input type="text" 
             id="email" 
             name="email" 
             placeholder="Digite seu email">
+
+           <label for="senha">SENHA:</label>
+            <input type="text"
+            id="senha"
+            name="senha"
+            placeholder="Digite sua senha">
+
+            <a href="outra_pagina.html" class="button">ENTRAR</a>
+            <a href="pagina_de_cadastro.html" class="button">ME CADASTRAR</a>
+            <a href="esqueceu_senha.html" class="button">ESQUECI A SENHA</a>
+         </div>
+
+
+         <script>
+
+                 if (email === "test@example.com" && password === "password123")
+                  {
+                message.style.color = "blue";
+                message.textContent = "Login bem-sucedido!";
+                
+                
             
-        </div>
+            }
+            
+            else {
+                message.style.color = "red";
+                message.textContent = "Email ou senha incorretos.";
+            }
+        ;
+    
+         </script>
 
 
 
